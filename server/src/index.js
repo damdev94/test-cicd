@@ -7,6 +7,8 @@ process.on("SIGINT", () => {
   process.exit();
 });
 
+// test
+
 process.on("SIGTERM", () => {
   console.log("Caught interrupt signal");
   process.exit();
